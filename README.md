@@ -2,13 +2,10 @@
 
 proliferation
 
-## Test this online with ([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/randompulse/ramif/master))
+## Test this online
 
-## Test locally with:
+- with [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/randompulse/ramif/master)
 
-```bash
-docker run --rm \
-    -p 8888:8888 \
-    -e JUPYTER_ENABLE_LAB=yes \
-    -v "$PWD":/home/jovyan/work jupyter/datascience-notebook
-```
+## Test locally
+
+- with [launch.sh](/launch.sh)
